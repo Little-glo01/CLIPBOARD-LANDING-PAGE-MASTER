@@ -1,0 +1,180 @@
+body{
+    
+}
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    background-image: url(/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-family: Bai Jamjuree;
+}
+ p{
+    font-size: 12px;
+    color: hsl(210, 10%, 33%);
+ }
+ h4 {
+    position: relative;
+    right: 59px;
+ }
+.download {
+    display: flex;
+    gap: 7%;
+    margin: 1% 1% 0% 19%;
+    margin-top: 60px;
+}
+.ios {
+    background-color: hsl(171, 66%, 44%);
+    padding: 8px;
+    border-radius: 15px;
+    color: white;
+}
+.mac {
+   background-color: hsl(233, 100%, 69%);
+   padding: 8px;
+   border-radius: 12px;
+   color: white; 
+}
+.computer {
+    display: flex;
+    gap: 10%;
+}
+.tools {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    gap: 4%;
+}
+.logo {
+    display: flex;
+    gap: 10%;
+    margin-bottom: 60px;
+
+}
+.card {
+    display: flex;
+    margin-top: 20%;
+    gap: 15%;
+    background-color: hsl(201, 11%, 66%);
+    padding: 20px 40px 30px 60px;
+    position: relative;
+    right: 70px;
+    /* left: 0px; */
+    width: 100%;
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    width: 67%;
+    gap: 20%;
+}
+.last {
+    display: inline-block;
+    display: flex;
+    gap: 10%;
+}
+.social {
+    display: flex;
+    gap: 20px;
+}
+span {
+    font-size: 11px;
+    color: hsl(210, 10%, 33%);
+}
+
+
+@media screen and (max-width:480px) {
+    body {
+        overflow-x: hidden;
+        width: 95%;
+        position: relative;
+        left: 30px;
+        
+    }
+    .container{
+        width: 55%;
+        margin: 0px 0px 0px 75px;
+        margin-top: 0;
+        background-image: url(/images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        padding: 10px;
+        overflow: scroll;
+        overflow-x: hidden;
+        background-color: inherit;
+        /* overflow-y: hidden; */
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 24px;
+        color: hsl(210, 10%, 33%);
+        font-weight: 600;
+
+    }
+    .svg{
+        width: 70px;
+    }
+    .download{
+        flex-direction: column;
+        gap: 10%;
+        position: relative;
+        right: 43px;
+        margin-top: 20px;
+    }
+    .ios {
+        padding: 7px;
+        border-radius: 15px;
+        width: 180px;
+    
+    }
+    .mac {
+        padding: 7px;
+        border-radius: 15px;
+        margin-top: 10px;
+        width: 180px;
+        box-shadow: 30px 6px 2px 15px;
+    }
+    .computer {
+        flex-direction: column;
+    }
+    .img-comp {
+        position: relative;
+        right: px;
+        width: 190px;
+    }
+    h4 {
+        position: relative;
+        left: 2px;
+    }
+    .devices {
+        position: relative;
+        right: 10px;
+        width: 200px;
+    }
+    .tools {
+        flex-direction: column;
+    }
+    .logo {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card {
+        flex-direction: column;
+        gap: 30px;
+        width: 240px;
+        position: relative;
+        right: 70px;
+    }
+    .foot {
+        flex-direction: column;
+        gap: 30px;
+        position: relative;
+        left: 30px;
+    }
+    .social {
+        position: relative;
+        left: 70px;
+    }
+
+}    
